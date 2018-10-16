@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F66E777921769DB00061E2AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E777821769DB00061E2AD /* AppDelegate.swift */; };
+		F66E777B21769DB00061E2AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E777A21769DB00061E2AD /* ViewController.swift */; };
+		F66E777E21769DB00061E2AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66E777C21769DB00061E2AD /* Main.storyboard */; };
+		F66E778021769DB00061E2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66E777F21769DB00061E2AD /* Assets.xcassets */; };
+		F66E778321769DB00061E2AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66E778121769DB00061E2AD /* LaunchScreen.storyboard */; };
+		F66E778E21769DB10061E2AD /* ratelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E778D21769DB10061E2AD /* ratelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F66E778A21769DB10061E2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66E776D21769DB00061E2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66E777421769DB00061E2AD;
+			remoteInfo = ratel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F66E777521769DB00061E2AD /* ratel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ratel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66E777821769DB00061E2AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F66E777A21769DB00061E2AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F66E777D21769DB00061E2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F66E777F21769DB00061E2AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F66E778221769DB00061E2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F66E778421769DB00061E2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66E778921769DB10061E2AD /* ratelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ratelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66E778D21769DB10061E2AD /* ratelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratelTests.swift; sourceTree = "<group>"; };
+		F66E778F21769DB10061E2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66E777221769DB00061E2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E778621769DB10061E2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F66E776C21769DB00061E2AD = {
+			isa = PBXGroup;
+			children = (
+				F66E777721769DB00061E2AD /* ratel */,
+				F66E778C21769DB10061E2AD /* ratelTests */,
+				F66E777621769DB00061E2AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66E777621769DB00061E2AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66E777521769DB00061E2AD /* ratel.app */,
+				F66E778921769DB10061E2AD /* ratelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66E777721769DB00061E2AD /* ratel */ = {
+			isa = PBXGroup;
+			children = (
+				F66E777821769DB00061E2AD /* AppDelegate.swift */,
+				F66E777A21769DB00061E2AD /* ViewController.swift */,
+				F66E777C21769DB00061E2AD /* Main.storyboard */,
+				F66E777F21769DB00061E2AD /* Assets.xcassets */,
+				F66E778121769DB00061E2AD /* LaunchScreen.storyboard */,
+				F66E778421769DB00061E2AD /* Info.plist */,
+			);
+			path = ratel;
+			sourceTree = "<group>";
+		};
+		F66E778C21769DB10061E2AD /* ratelTests */ = {
+			isa = PBXGroup;
+			children = (
+				F66E778D21769DB10061E2AD /* ratelTests.swift */,
+				F66E778F21769DB10061E2AD /* Info.plist */,
+			);
+			path = ratelTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66E777421769DB00061E2AD /* ratel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66E779221769DB10061E2AD /* Build configuration list for PBXNativeTarget "ratel" */;
+			buildPhases = (
+				F66E777121769DB00061E2AD /* Sources */,
+				F66E777221769DB00061E2AD /* Frameworks */,
+				F66E777321769DB00061E2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ratel;
+			productName = ratel;
+			productReference = F66E777521769DB00061E2AD /* ratel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F66E778821769DB10061E2AD /* ratelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66E779521769DB10061E2AD /* Build configuration list for PBXNativeTarget "ratelTests" */;
+			buildPhases = (
+				F66E778521769DB10061E2AD /* Sources */,
+				F66E778621769DB10061E2AD /* Frameworks */,
+				F66E778721769DB10061E2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66E778B21769DB10061E2AD /* PBXTargetDependency */,
+			);
+			name = ratelTests;
+			productName = ratelTests;
+			productReference = F66E778921769DB10061E2AD /* ratelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66E776D21769DB00061E2AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = usnea.org;
+				TargetAttributes = {
+					F66E777421769DB00061E2AD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F66E778821769DB10061E2AD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F66E777421769DB00061E2AD;
+					};
+				};
+			};
+			buildConfigurationList = F66E777021769DB00061E2AD /* Build configuration list for PBXProject "ratel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F66E776C21769DB00061E2AD;
+			productRefGroup = F66E777621769DB00061E2AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66E777421769DB00061E2AD /* ratel */,
+				F66E778821769DB10061E2AD /* ratelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66E777321769DB00061E2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E778321769DB00061E2AD /* LaunchScreen.storyboard in Resources */,
+				F66E778021769DB00061E2AD /* Assets.xcassets in Resources */,
+				F66E777E21769DB00061E2AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E778721769DB10061E2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66E777121769DB00061E2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E777B21769DB00061E2AD /* ViewController.swift in Sources */,
+				F66E777921769DB00061E2AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E778521769DB10061E2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E778E21769DB10061E2AD /* ratelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F66E778B21769DB10061E2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66E777421769DB00061E2AD /* ratel */;
+			targetProxy = F66E778A21769DB10061E2AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F66E777C21769DB00061E2AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66E777D21769DB00061E2AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F66E778121769DB00061E2AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66E778221769DB00061E2AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66E779021769DB10061E2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F66E779121769DB10061E2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F66E779321769DB10061E2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4492W58Z35;
+				INFOPLIST_FILE = ratel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.usnea.ratel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F66E779421769DB10061E2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4492W58Z35;
+				INFOPLIST_FILE = ratel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.usnea.ratel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F66E779621769DB10061E2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4492W58Z35;
+				INFOPLIST_FILE = ratelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.usnea.ratelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ratel.app/ratel";
+			};
+			name = Debug;
+		};
+		F66E779721769DB10061E2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4492W58Z35;
+				INFOPLIST_FILE = ratelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.usnea.ratelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ratel.app/ratel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66E777021769DB00061E2AD /* Build configuration list for PBXProject "ratel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E779021769DB10061E2AD /* Debug */,
+				F66E779121769DB10061E2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66E779221769DB10061E2AD /* Build configuration list for PBXNativeTarget "ratel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E779321769DB10061E2AD /* Debug */,
+				F66E779421769DB10061E2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66E779521769DB10061E2AD /* Build configuration list for PBXNativeTarget "ratelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E779621769DB10061E2AD /* Debug */,
+				F66E779721769DB10061E2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F66E776D21769DB00061E2AD /* Project object */;
+}
